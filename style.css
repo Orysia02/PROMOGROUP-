@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: #0000FF;
+    padding: 50px 100px;
+    display: flex;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.plus, .dots, .x{
+    font-size: 15px;
+}
+
+.plus{
+    margin-top: -12px;
+    margin-left: -10px;
+}
+
+.dots{
+    margin-top: -11px;
+    margin-left: 5px;
+}
+
+.x{
+    margin-left: -9px;
+}
+
+.title-one{
+    width: 947px;
+    height: 350px;
+    font-size: 90px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 300;
+    margin-left: 100px;
+}
+
+.text{
+    margin-left: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
+
+.button-1{
+    width: 309px;
+    height: 70px;
+    background-color:#0000FF;
+    border: #0000FF;
+    margin-left: 100px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+    padding: 20px 40px;
+    font-size: 15px;
+}
+
+.numbers{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.number-text{
+    font-size: 13px;
+    color: #181818;
+    font-family: "Montserrat", sans-serif;
+    width: 140px;
+    height: 105px;
+    text-align: center;
+}
+
+.number-text strong{
+    color: #0000FF;
+    font-size: 80px;
+    display: block;
+}
+
+.m2{
+    margin-left: -170px;
+    margin-top: -10px;
+    color: #0000FF;
+}
+
+.cross{
+    width: 137px;
+    height: 137px;
+    background-image: url(./icons/cross.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 540px;
+    margin-left: -50px;
+}
+
+.circle{
+    width: 26px;
+    height: 26px;
+    background-image: url(./icons/circle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -690px;
+    margin-left: 1200px;
+}
+
+.big-circle{
+    width: 150px;
+    height: 150px;
+    background-image: url(./icons/Ellipse\ 4.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -435px;
+    margin-left: 900px;
+}
+
+.plus-icon{
+    width: 137px;
+    height: 137px;
+    background-image: url(./icons/Vector.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 1310px;
+}
+
+.section-one{
+    min-height: 900px;
+}
+
+.title-tow{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+.section-tow{
+    margin-left: 100px;
+    min-height: 100%;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 360px 480px 405px;
+    gap: 10px;
+    grid-template-rows: 308px 424px 465px;
+    margin-top: 40px;
+}
+
+.image-item{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-item:nth-child(4){
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.image-item:nth-child(5){
+    margin-top: 106px;
+}
+
+.image-item:nth-child(6){
+    height: 520px;
+}
+
+.image-item:nth-child(7){
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.form{
+    margin-top: 160px;
+    margin-left: 100px;
+}
+
+.title-three{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+.content-form{
+    display: flex;
+    flex-direction: column;
+    width: 726px;
+    height: 476px;
+}
+
+.item-form{
+    width: 726px;
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 15px;
+    margin-top: 30px;
+    color: #E8E8E8;
+}
+
+.text-form{
+    width: 430px;
+    color: #4A4A4A;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.button-2{
+    width: 309px;
+    height: 70px;
+    background-color:#0000FF;
+    border: #0000FF;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+    padding: 20px 40px;
+    font-size: 15px;
+}
+
+.footer{
+    height: 100px;
+    margin-top: 100px;
+    border-top: 1px solid #EFEFEF;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    color: #686868;
+}
+
+.media{
+    display: flex;
+    justify-content:space-around;
+    width: 400px;
+}
